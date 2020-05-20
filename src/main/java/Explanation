@@ -1,0 +1,12 @@
+This skill will recommends a bestselling book to user based on budget, category and author.
+The AskBudgetIntent asks the budget from user,
+The BudgetIntent gets the budget and asks category from user,
+The CategoryIntent gets the category and asks the author from the user,
+The AuthorIntent gets the author and gives the user the list of bestselling books ans aks the user if user wants to know the book description of book or user wants to continue,
+The BookDescriptionIntent asks the user the name of book whose bood description user wants to know,
+The GiveBookInfoIntent gives the book description of the book and asks if user wants to know book description of any other book or the user wants to continue,
+The AskedAnotherBookInfoIntent asks the name of the book whose book description user wants to know,
+The MoreIntent gives the book description of the book,
+The ContinueIntent asks if user wants more bestsellers,
+The YesIntent asks for category of the book,
+The NoIntent gives the user GoodBye! message.
